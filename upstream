@@ -1,0 +1,6 @@
+#prefetch SRR23341322 
+#fastq-dump --split-file --gzip ./SRR23341322/SRR23341322.sra -O ./fastq/
+#prepare for cell ranger
+cat SRR_Acc_List-9245-3.txt | while read i ;do (mv ${i}_1*.gz ${i}_S1_L001_I1_001.fastq.gz;mv ${i}_2*.gz ${i}_S1_L001_I2_001.fastq.gz;mv ${i}_3*.gz ${i}_S1_L001_R1_001.fastq.gz;mv ${i}_4*.gz ${i}_S1_L001_R2_001.fastq.gz);done
+
+#create ref https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/tutorial_mr
