@@ -1,0 +1,12 @@
+wd:
+    /home/mlei/ljscseq/medicago_truncatula/scrna-seq/
+
+rd:
+    /home/mlei/ljscseq/medicago_truncatula/scrna-seq/
+threads:
+    10
+ref:
+    Mtrun
+refdir:
+    /home/mlei/ljscseq/medicago_truncatula/scrna-seq/Mtrun
+
