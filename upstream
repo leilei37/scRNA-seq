@@ -24,6 +24,10 @@ cellranger mkgtf \
   --attribute=gene_biotype:rRNA \
   --attribute=gene_biotype:tRNA
 cellranger mkref   --genome=Mtrun   --fasta=/home/mlei/ljscseq/medicago_truncatula/genome/MtrunA17r5.0-20161119-ANR.genome.fasta   --genes=/home/mlei/ljscseq/medicago_truncatula/genome/MtrunA17r5.0-ANR-EGN-r1.9.filtered.gtf
+cellranger count --id=result_SRR23341322 \
+                  --transcriptome=/home/mlei/ljscseq/medicago_truncatula/scrna-seq/Mtrun \
+                  --fastqs=/home/mlei/ljscseq/medicago_truncatula/scrna-seq/fastq/ \
+                  --sample=SRR23341322
 
 
 
