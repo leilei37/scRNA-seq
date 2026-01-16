@@ -1,8 +1,8 @@
 # scRNA-seq
-### medicago
+## medicago
 cellranger for medicago
-### faba
-#### single nucluer
+## faba
+### single nucluer
 starsolo for faba bean alignment
 
 quality control
