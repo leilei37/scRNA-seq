@@ -3,9 +3,9 @@
 cellranger for medicago
 ## faba
 ### single nucluer
-starsolo for faba bean alignment
+      starsolo for faba bean alignment
 
-quality control
+      quality control
 ### spatial transcriptome
       app.R - spatial transcriptome visulization
 
